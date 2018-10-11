@@ -1,0 +1,62 @@
+/*contact form*/
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px; 
+    margin-top: 50px;
+    margin-bottom: 380px
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 150px;
+  margin-bottom:10px;
+}
+
+input, textarea {
+  font-size: 0.9rem;
+  padding: 25px 20px 20px;
+  font-family: 'Archivo Black', sans-serif;
+  border: 2px solid #FDBB1E;
+  background: black;
+  color: #FDBB1E;
+  border-radius: 15px;
+  background-clip: padding-box;
+  width: 80%;
+  max-width: 600px;
+  cursor: text;
+}
+
+button {
+  margin-top:15px;
+  margin-bottom:25px;
+  background-color: black;
+  padding: 12px 45px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 2px solid #FDBB1E;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+  width:30%;
+  color:#FDBB1E;
+}
+
+button:hover, .button:hover {
+  background: black;
+}
+/* media queries */
+@media (max-width: 900px) {
+  input, textarea {
+    width: 90%;
+  }
+  button {
+    width:90%;
+  }
+}

@@ -1,0 +1,59 @@
+.wellcometext {
+    margin: 0;
+    padding: 50px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.header-main {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 20px;
+    
+}
+.food {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.assortment {
+    padding-top: 50px;
+    padding-bottom: 330px;
+}
+
+.assortment img {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 400px) {
+    .assortment { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 500px) {
+    .assortment {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 880px) {
+    .assortment {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1000px) {
+    .assortment {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (min-width: 500px) {
+    footer > nav {
+        display: flex;
+    }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Kaushan+Script');
+
+:root {
+font-family: 'Kaushan Script', cursive;
+}
+main {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.header-about-us {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 20px;
+}
+
+.text {
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 190px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.simple-carousel {
+    padding: 50px;
+}
