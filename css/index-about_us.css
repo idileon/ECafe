@@ -1,6 +1,7 @@
-main {
-    padding-top: 50px;
-    padding-bottom: 0px;
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Kaushan+Script');
+
+:root {
+font-family: 'Kaushan Script', cursive;
 }
 
 .header-about-us {
@@ -11,9 +12,14 @@ main {
 }
 
 .text {
+    font-family: 'Kaushan Script', cursive;
     margin: 0;
-    padding: 20px;
-    padding-bottom: 190px;
     font-size: 1.8rem;
     text-align: center;
 }
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
