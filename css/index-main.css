@@ -25,6 +25,7 @@
 .assortment img {
     display: block;
     width: 100%;
+    cursor: pointer;
 }
 
 @media (min-width: 400px) {
